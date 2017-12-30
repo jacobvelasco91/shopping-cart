@@ -2,8 +2,8 @@
 $title = "login";
 $numItems = 0;
 include_once "./include/connect.php";
-include_once "./include/head.php";
 include_once "./include/login.php";
+include_once "./include/head.php";
 ?>
     <!--start of FORM -->
 <form class="login-form" action="login_page.php" method="post" onsubmit="return validate()">
